@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT"
+issueTrackerURL="https://github.com/example/bulkminingench/issues"
+
+[[mods]]
+modId="bulkminingench"
+version="1.0.0"
+displayName="Bulk Mining Enchantment"
+description='''Adds the 3-level Bulk Mining enchantment (I: 3x3x3, II: 5x5x5, III: 7x7x7) for pickaxes with smart ore filtering and full Enchanting Infuser compatibility for Minecraft 26.3 (NeoForge 26.3.0.95).'''
+authors="jaca"
+
+[[dependencies.bulkminingench]]
+modId="neoforge"
+type="required"
+versionRange="[26.3.0.95,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.bulkminingench]]
+modId="minecraft"
+type="required"
+versionRange="[26.3,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.bulkminingench]]
+modId="enchantinginfuser"
+type="optional"
+versionRange="[0.0,)"
+ordering="AFTER"
+side="BOTH"

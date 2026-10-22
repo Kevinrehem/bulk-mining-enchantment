@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bulkminingench.domain.BulkMiningPolicyTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-10-22T19:01:35" hostname="DESKTOP-MN6V2FG" time="0.039">
+  <properties/>
+  <testcase name="TE-01: Breaking non-ore block ignores ore neighbors (#c:ores) across Levels I, II, and III" classname="com.bulkminingench.domain.BulkMiningPolicyTest" time="0.025"/>
+  <testcase name="TP-04: Breaking ore block (#c:ores) allows breaking both ore and non-ore neighbors across all levels" classname="com.bulkminingench.domain.BulkMiningPolicyTest" time="0.003"/>
+  <testcase name="TP-03: Breaking non-ore block allows breaking valid non-ore pickaxe-mineable neighbors" classname="com.bulkminingench.domain.BulkMiningPolicyTest" time="0.001"/>
+  <testcase name="TE-04: Non-pickaxe blocks, insufficient tool tier, or restricted world permissions are rejected" classname="com.bulkminingench.domain.BulkMiningPolicyTest" time="0.001"/>
+  <testcase name="TE-03: Neighbors with BlockEntity or indestructible hardness (&lt; 0, e.g. Bedrock) are rejected" classname="com.bulkminingench.domain.BulkMiningPolicyTest" time="0.0"/>
+  <testcase name="TE-02: Sneaking (Shift) or client-side execution or non-pickaxe disables bulk mining" classname="com.bulkminingench.domain.BulkMiningPolicyTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

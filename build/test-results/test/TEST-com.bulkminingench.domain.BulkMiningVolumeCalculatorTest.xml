@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bulkminingench.domain.BulkMiningVolumeCalculatorTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-10-22T19:01:35" hostname="DESKTOP-MN6V2FG" time="0.063">
+  <properties/>
+  <testcase name="TE-01: Floating block surrounded by 1-block air gap does not break surrounding blocks" classname="com.bulkminingench.domain.BulkMiningVolumeCalculatorTest" time="0.019"/>
+  <testcase name="TP-02: In 7x7x7 (Level III), mining 3rd or 4th block of height keeps floor at playerFootY [playerFootY, playerFootY + 6]" classname="com.bulkminingench.domain.BulkMiningVolumeCalculatorTest" time="0.023"/>
+  <testcase name="TE-02: 1-block air gap between two walls prevents breaking the disconnected wall" classname="com.bulkminingench.domain.BulkMiningVolumeCalculatorTest" time="0.004"/>
+  <testcase name="TP-01: Solid volumes produce 26 (3x3x3), 124 (5x5x5), and 342 (7x7x7) connected neighbors" classname="com.bulkminingench.domain.BulkMiningVolumeCalculatorTest" time="0.007"/>
+  <testcase name="TE-05: Out-of-bounds levels &lt;= 0 return empty volume and levels &gt; 3 clamp to 7x7x7 (radius 3)" classname="com.bulkminingench.domain.BulkMiningVolumeCalculatorTest" time="0.003"/>
+  <testcase name="TP-03: 26-directional flood-fill traverses blocks touching by full face or diagonal corner" classname="com.bulkminingench.domain.BulkMiningVolumeCalculatorTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

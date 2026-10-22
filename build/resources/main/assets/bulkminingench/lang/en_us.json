@@ -1,0 +1,4 @@
+{
+  "enchantment.bulkminingench.bulk_mining": "Bulk Mining",
+  "enchantment.bulkminingench.bulk_mining.desc": "Mines blocks in a 3x3x3 (I), 5x5x5 (II), or 7x7x7 (III) cube. Ignores ores when mining stone."
+}

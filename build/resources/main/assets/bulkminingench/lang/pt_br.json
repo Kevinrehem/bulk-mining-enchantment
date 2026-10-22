@@ -1,0 +1,4 @@
+{
+  "enchantment.bulkminingench.bulk_mining": "Mineração em Massa",
+  "enchantment.bulkminingench.bulk_mining.desc": "Minera blocos em um cubo 3x3x3 (I), 5x5x5 (II) ou 7x7x7 (III). Ignora minérios ao quebrar rochas."
+}
